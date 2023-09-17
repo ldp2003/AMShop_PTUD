@@ -66,13 +66,13 @@ public class GUI extends JFrame {
 		Box bMenu = Box.createHorizontalBox();
 		
 		JButton btnTongQuan, btnHangHoa, btnGiaoDich, btnDoiTac, btnNhanVien, btnSoQuy, btnBaoCao;
-		btnTongQuan = new JButton("Tong Quan");
-		btnHangHoa = new JButton("Hang Hoa");
-		btnGiaoDich = new JButton("Giao Dich");
-		btnDoiTac = new JButton("Doi Tac");
-		btnNhanVien = new JButton("Nhan Vien");
-		btnSoQuy = new JButton("So Quy");
-		btnBaoCao = new JButton("Bao Cao");
+		btnTongQuan = new JButton("Tổng Quan");
+		btnHangHoa = new JButton("Hàng Hóa");
+		btnGiaoDich = new JButton("Giao Dịch");
+		btnDoiTac = new JButton("Đối Tác");
+		btnNhanVien = new JButton("Nhân Viên");
+		btnSoQuy = new JButton("Sổ Quỹ");
+		btnBaoCao = new JButton("Báo Cáo");
 		bMenu.add(btnTongQuan);
 		bMenu.add(btnHangHoa);
 		bMenu.add(btnGiaoDich);
@@ -84,7 +84,7 @@ public class GUI extends JFrame {
 		bMenu.setAlignmentX(Component.LEFT_ALIGNMENT);
 		pnCenter.add(Box.createHorizontalGlue());
 		Box bBanHang = Box.createHorizontalBox();
-		JButton btnBanHang = new JButton("Ban Hang");
+		JButton btnBanHang = new JButton("Bán Hàng");
 		bBanHang.add(btnBanHang);
 		pnCenter.add(bBanHang);
 		bBanHang.setAlignmentX(Component.RIGHT_ALIGNMENT);
@@ -111,6 +111,8 @@ public class GUI extends JFrame {
 		btnSoQuy.setForeground(Color.white);
 		btnBaoCao.setBackground(Color.blue);
 		btnBaoCao.setForeground(Color.white);
+		btnBanHang.setBackground(Color.blue);
+		btnBanHang.setForeground(Color.white);
 		//Panel làm việc
 		//Chưa hoàn thiện, cần thêm sau
 		Box bSouth = Box.createHorizontalBox();
